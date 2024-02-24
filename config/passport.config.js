@@ -45,7 +45,7 @@ const passportGoogle = async()=>{
     passport.use(new googleStrategy({
         clientID:googleClientId,
         clientSecret:googleClientSec,
-        callbackURL:'http://localhost:15001/auth/google/cb'
+        callbackURL:'https://userauths-4ate.onrender.com/auth/google/cb'
     },async(accessToken, refreshToken, profile, done)=>{
         try {
             const user = await googleUser.findOne({googleId:profile.id})
