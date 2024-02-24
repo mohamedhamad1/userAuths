@@ -15,7 +15,9 @@
                                     <%= user.username %>
                                     <p><%= user.email %></p>
                                 </h5>
-                                <a href="/admin/delete_user/<%= user._id %>" class="btn btn-sm btn-danger delete-btn">Delete</a>
+                                <% if (locals.user.id != user._id) { %>
+                                    <a href="/admin/delete_user/<%= user._id %>" class="btn btn-sm btn-danger delete-btn">Delete</a>
+                                <% } %>
                             </div>
                         </div>
                     <% }) %>
