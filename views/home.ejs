@@ -1,0 +1,40 @@
+<%- include('./partials/header.ejs') %>
+<%- include('./partials/navbar.ejs') %>
+<!-- Hero Section -->
+<div class="hero-section">
+    <div class="hero-text">
+        <h1>Welcome to My Authentication project</h1>
+        <p>Designed to provide secure access and authentication functionalities for users.</p>
+        <% if (!locals.user) { %>
+            <a href="/login" class="btn btn-primary btn-lg">Get Started</a>
+        <% } %>
+    </div>
+</div>
+
+<!-- Features Section -->
+<div class="container">
+    <h1 class="display-6 text-center">Features in this project</h1>
+    <div class="row mt-3">
+        <div class="col-md-4">
+            <div class="feature">
+                <h3>User Registration</h3>
+                <p>Allows new users to create an account by providing their personal information.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="feature">
+                <h3>Login and Authentication</h3>
+                <p>Enables registered users to securely log in to their accounts using their credentials.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="feature">
+                <h3>Authentication with Google</h3>
+                <p>Is a valuable feature for user authentication projects as it allows users to sign in to your
+                    application using their Google accounts using OAuth2.0.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include('./partials/footer.ejs') %>

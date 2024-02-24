@@ -1,0 +1,14 @@
+<%- include('../partials/header.ejs') %>
+<%- include('../partials/navbar.ejs') %>
+
+<section class="hero-section">
+    <div class="container">
+        <img src="/imgs/profile.jpg" alt="Profile Image" class="rounded-circle mb-4" width="200">
+        <h2><%= user.username %></h2>
+        <ul class="list-unstyled">
+            <li></li>
+            <li><%= user.email %></li>
+        </ul>
+    </div>
+</section>
+<%- include('../partials/footer.ejs') %>

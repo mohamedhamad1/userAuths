@@ -1,0 +1,182 @@
+body {
+    background-color: #121212;
+    /* Dark background color */
+    font-family: Arial, sans-serif;
+    color: #fff;
+    /* Light text color */
+    background-image: url('/imgs/home-background3.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-section {
+    background-color: #333;
+    /* Dark container background color */
+    padding: 100px 0;
+    text-align: center;
+    background-image: url('/imgs/home-background3.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    color: #fff;
+    /* Light text color */
+}
+
+.feature {
+    background-color: #333;
+    /* Dark container background color */
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.feature h3 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* ==================================login css============================ */
+.login-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #333;
+    /* Dark container background color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    /* Light shadow */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    height: 50px;
+    background-color: #555;
+    /* Dark input background color */
+    border: none;
+    /* Remove border */
+    color: #fff;
+    /* Light text color */
+}
+
+.btn-login {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    background-color: #007bff;
+    /* Primary color */
+    border: none;
+    /* Remove border */
+}
+
+.btn-login:hover {
+    background-color: #0056b3;
+    /* Darken on hover */
+}
+
+.btn-google {
+    background-color: #DB4437;
+    /* Google color */
+    color: #fff;
+    /* Light text color */
+    border: none;
+    /* Remove border */
+}
+
+.btn-google:hover {
+    background-color: #b52e24;
+    /* Darken on hover */
+}
+
+.text-muted {
+    color: rgba(255, 255, 255, 0.5);
+    /* Semi-transparent light text color */
+}
+
+/* =========================================signup css==================================== */
+.signup-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #333;
+    /* Dark container background color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    /* Light shadow */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    height: 50px;
+    background-color: #555;
+    /* Dark input background color */
+    border: none;
+    /* Remove border */
+    color: #fff;
+    /* Light text color */
+}
+
+.btn-signup {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    background-color: #007bff;
+    /* Dark blue color */
+    border: none;
+    /* Remove border */
+}
+
+.btn-signup:hover {
+    background-color: #0056b3;
+    /* Darken on hover */
+}
+
+.text-muted {
+    color: rgba(255, 255, 255, 0.5);
+    /* Semi-transparent light text color */
+}
+
+/* ==========admin panel ================== */
+.card-header {
+    background-color: #333;
+    /* Dark header background color */
+    color: #fff;
+    /* Light header text color */
+}
+
+.card {
+    background-color: #444;
+    /* Dark card background color */
+}
+
+.list-group-item {
+    background-color: #555;
+    /* Dark list item background color */
+    border-color: #666;
+    /* Dark border color */
+}
+.delete-btn {
+    background-color: #d9534f; /* Bootstrap danger color */
+    border-color: #d9534f; /* Bootstrap danger color */
+}
